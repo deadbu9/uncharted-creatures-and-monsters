@@ -1,0 +1,197 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "UnchartedCreaturesandMonsters",
+				"abbreviation": "UCAM",
+				"full": "Uncharted Creatures and Monsters",
+				"url": "N/A",
+				"authors": [
+					"Zuzu"
+				],
+				"convertedBy": [
+					"Zuzu"
+				]
+			}
+		],
+		"dateAdded": 1587139498,
+		"dateLastModified": 1587139498
+	},
+	"monster": [
+		{
+			"name": "Pink Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Pink Puni",
+				"Pink Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "1d8 + 2",
+				"average": 6
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Cheery Flavor",
+					"entries": [
+						"This creature taste like cherry albeit a bit more acidic, biting in radical fashion will likely result in {@damage 1d4} acid damage to your throat"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Suffocate",
+					"entries": [
+						"The Slime try to wrap itself on enemy head to suffocate them, the target must succeed on a {@dc 12} Strength or Dexterity saving throw or take  {@damage 1d6} Damage, per turn it stays there"
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://gitlab.com/deadbu9/uncharted-creatures-and-monsters/-/raw/dev/tokens/Monsters/Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://gitlab.com/deadbu9/uncharted-creatures-and-monsters/-/raw/dev/tokens/Monsters/Slime.png",
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "9afc25717f22e40815de1ce0c05dc476"
+		},
+		{
+			"name": "Acid Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Pink Puni"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "1d8 + 2",
+				"average": 6
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Strong Acid",
+					"entries": [
+						"This creature taste like nothing, when you bite to it, the sensation you feel is just burning akin to licking strong sulfuric acid, the aftertaste will leave your tongue numb, but it's smells like pinewood and grass, biting it, whether in radical or orderly fashion will always result in {@damage 1d8} acid damage to your throat and mouth, you might want to process it before consuming it."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage + {@h}3 ({@damage 1d6}) acid damage. "
+					]
+				},
+				{
+					"name": "Acid Spit",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 30/30 ft., one target. {@h}6 ({@damage 1d6 + 3}) acid damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://gitlab.com/deadbu9/uncharted-creatures-and-monsters/-/raw/dev/tokens/Monsters/Acid-Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://gitlab.com/deadbu9/uncharted-creatures-and-monsters/-/raw/dev/tokens/Monsters/Acid-Slime.png",
+			"damageTags": [
+				"A",
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"uniqueId": "d323bd759b69aea0e2237b81406bfd80"
+		}
+	]
+}
