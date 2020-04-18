@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1587189383,
-		"dateLastModified": 1587189383
+		"dateAdded": 1587194590,
+		"dateLastModified": 1587194590
 	},
 	"monster": [
 		{
@@ -28,7 +28,7 @@
 			],
 			"group": "Porings",
 			"source": "UnchartedCreaturesandMonsters",
-			"size": "S",
+			"size": "T",
 			"type": "ooze",
 			"alignment": [
 				"C",
@@ -38,25 +38,48 @@
 				13
 			],
 			"hp": {
-				"formula": "1d8 + 2",
-				"average": 6
+				"formula": "4d4 + 8",
+				"average": 18
 			},
 			"speed": {
 				"walk": 30
 			},
-			"str": 10,
-			"dex": 10,
-			"con": 10,
-			"int": 10,
-			"wis": 10,
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 14,
+			"wis": 11,
 			"cha": 10,
-			"passive": 10,
-			"cr": "0",
+			"save": {
+				"int": "+4",
+				"cha": "+2"
+			},
+			"passive": 12,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/4",
 			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
 				{
 					"name": "Cheery Flavor",
 					"entries": [
 						"This creature taste like cherry albeit a bit more acidic, biting in radical fashion will likely result in {@damage 1d4} acid damage to your throat"
+					]
+				},
+				{
+					"name": "Aversion to Fire",
+					"entries": [
+						"If the slime takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
 					]
 				}
 			],
@@ -64,7 +87,7 @@
 				{
 					"name": "Body Slam",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
 					]
 				},
 				{
@@ -97,16 +120,19 @@
 			},
 			"familiar": true,
 			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png",
+			"traitTags": [
+				"Amorphous"
+			],
 			"damageTags": [
 				"B"
 			],
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "d1ead84d2a4a54d5a08dc1d9e64210d1"
+			"uniqueId": "ce60019817c2c3d1c95a4efc7b3740e7"
 		},
 		{
-			"name": "Acid Slime",
+			"name": "Acidie Slime",
 			"alias": [
 				"Puni",
 				"Poring",
@@ -114,7 +140,7 @@
 			],
 			"group": "Porings",
 			"source": "UnchartedCreaturesandMonsters",
-			"size": "S",
+			"size": "T",
 			"type": "ooze",
 			"alignment": [
 				"C",
@@ -137,7 +163,7 @@
 			"wis": 10,
 			"cha": 10,
 			"passive": 10,
-			"cr": "0",
+			"cr": "1/4",
 			"trait": [
 				{
 					"name": "Strong Acid",
@@ -182,7 +208,273 @@
 				"MW",
 				"RW"
 			],
-			"uniqueId": "cc87ea2efcf8c3b0dd8cdc36d7bea3dc"
+			"uniqueId": "f9dce6596a044c66f859c05ce2d7d34e"
+		},
+		{
+			"name": "Slime base",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 217,
+			"size": "T",
+			"type": "ooze",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d4 + 8"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 14,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+4",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this distance)"
+			],
+			"passive": 12,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The oblex can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Aversion to Fire",
+					"entries": [
+						"If the oblex takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage plus 2 ({@damage 1d4}) psychic damage."
+					]
+				}
+			],
+			"environment": [
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Oblex Spawn",
+				"source": "MTF",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Mind flayers unleash all manner of foul experiments upon the planes with little thought for the consequences. Here, though, I suspect another influence: Juiblex."
+										],
+										"by": "Mordenkainen"
+									},
+									{
+										"type": "entries",
+										"name": "Oblex Spawn",
+										"entries": [
+											"An oblex devours memories not only to sustain its existence, but also to spawn new oblexes. Each time it fully drains the memories of a victim, it gains the creature's personality—now twisted by the oblex's foul nature. The more memories an oblex steals, the larger it becomes, until it must shed a personality it has absorbed or else go insane. This act spawns a new oblex."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Oblex",
+										"entries": [
+											"By experimenting on the slimes, jellies, and puddings that infest the depths of the Underdark, mind flayers created a special breed of ooze, the oblex—a slime capable of assaulting the minds of other creatures. Cunning hunters, these pools of jelly stalk prey, searching for the memories they so desperately crave. When oblexes feed on those thoughts, sometimes killing their victims, they can form weird copies of their prey, which help them to harvest even more victims for their dark masters."
+										]
+									},
+									{
+										"name": "Memory Eaters",
+										"type": "entries",
+										"entries": [
+											"Oblexes feed on thoughts and memories. The sharper the mind, the better the meal, so oblexes hunt obviously intelligent targets such as wizards and other spellcasters. When suitable fare comes within reach, an oblex draws its body up to engulf its victim. As it withdraws, it plunders the creature's mind, leaving its prey befuddled and confused."
+										]
+									},
+									{
+										"name": "Ooze Nature",
+										"type": "entries",
+										"entries": [
+											"An oblex doesn't require sleep."
+										]
+									},
+									{
+										"type": "quote",
+										"entries": [
+											"An oblex wants memories, but not to serve any end of its own making. Oblexes are hungry for memories and personalities because they are empty without such nourishment. In this way they serve their creators, the illithids. An oblex in the range of an elder brain's powers provides everything necessary for the mind flayers to find choice victims."
+										],
+										"by": "Mordenkainen"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MTF/Oblex Spawn.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://5e.tools/img/MTF/Oblex Spawn.png?v=1.103.2",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/674/oblex-spawn.mp3",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "56ca2cedfe8ec3549cf0b314d194e33d"
+		},
+		{
+			"name": "Acid Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Pink Puni",
+				"Pink Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "T",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d4 + 8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 14,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "+4",
+				"cha": "+2"
+			},
+			"passive": 12,
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Cheery Flavor",
+					"entries": [
+						"This creature taste like cherry albeit a bit more acidic, biting in radical fashion will likely result in {@damage 1d4} acid damage to your throat"
+					]
+				},
+				{
+					"name": "Aversion to Fire",
+					"entries": [
+						"If the slime takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Suffocate",
+					"entries": [
+						"The Slime try to wrap itself on enemy head to suffocate them, the target must succeed on a {@dc 12} Strength or Dexterity saving throw or take  {@damage 1d6} Damage, per turn it stays there"
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "eca87a70096c006aaf94ec0a79f93fba"
 		}
 	]
 }
