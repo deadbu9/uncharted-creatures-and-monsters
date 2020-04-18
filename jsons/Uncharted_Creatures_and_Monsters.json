@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1587195582,
-		"dateLastModified": 1587195582
+		"dateAdded": 1587195754,
+		"dateLastModified": 1587195754
 	},
 	"monster": [
 		{
@@ -295,8 +295,10 @@
 			"alias": [
 				"Puni",
 				"Poring",
-				"Pink Puni",
-				"Pink Poring"
+				"Green Puni",
+				"Green Poring",
+				"Acid Puni",
+				"Acid Poring"
 			],
 			"group": "Porings",
 			"source": "UnchartedCreaturesandMonsters",
@@ -394,13 +396,13 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png"
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Acid-Slime.png"
 						}
 					}
 				]
 			},
 			"familiar": true,
-			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png",
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Acid-Slime.png",
 			"traitTags": [
 				"Amorphous"
 			],
@@ -415,7 +417,7 @@
 				"MW",
 				"RW"
 			],
-			"uniqueId": "1e4b6bace550a33f8ca4220073d0a102"
+			"uniqueId": "b038ff25c4059e4c2775abddfbe6cfc5"
 		}
 	]
 }
