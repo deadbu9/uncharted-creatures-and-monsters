@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1588682082,
-		"dateLastModified": 1588682082
+		"dateAdded": 1588683362,
+		"dateLastModified": 1588683362
 	},
 	"monster": [
 		{
@@ -598,7 +598,7 @@
 					}
 				]
 			},
-			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Bush-Imp.png",
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/The%20Weird%20Wild/Bush-Imp.png",
 			"traitTags": [
 				"False Appearance"
 			],
@@ -608,7 +608,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "f85bf153eda59780d53c51da3b3e8cfe"
+			"uniqueId": "49438171ad2a5eb3321c5cb7e03e38f0"
 		},
 		{
 			"name": "Dolphin",
@@ -1414,7 +1414,7 @@
 			"environment": [
 				"coastal"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Pinchy-Crab.png",
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Pincy-Crab.png",
 			"traitTags": [
 				"Amphibious"
 			],
@@ -1430,7 +1430,7 @@
 			"conditionInflict": [
 				"grappled"
 			],
-			"uniqueId": "c4f7119e03bb077f6a83c145fdcc2184"
+			"uniqueId": "fd485300e43ff71a39bcdaa15d795f48"
 		},
 		{
 			"name": "Giant Terra Crab",
