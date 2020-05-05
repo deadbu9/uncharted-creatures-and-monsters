@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1587195754,
-		"dateLastModified": 1587195754
+		"dateAdded": 1588682082,
+		"dateLastModified": 1588682082
 	},
 	"monster": [
 		{
@@ -418,6 +418,1323 @@
 				"RW"
 			],
 			"uniqueId": "b038ff25c4059e4c2775abddfbe6cfc5"
+		},
+		{
+			"name": "Branchleg",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 325,
+			"size": "H",
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 42,
+				"formula": "5d12 + 10"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 19,
+			"dex": 16,
+			"con": 14,
+			"int": 7,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"understands Common",
+				"Elvish",
+				"Sylvan but can't speak them"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the Branchleg moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Vine Lash",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one {@condition prone} creature. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"fluff": {
+				"name": "Giant Elk",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The majestic giant elk is rare to the point that its appearance is often taken as a foreshadowing of an important event, such as the birth of a king. Legends tell of gods that take the form of giant elk when visiting the Material Plane. Many cultures therefore believe that to hunt these creatures is to invite divine wrath."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Branchleg.png",
+			"traitTags": [
+				"Charge"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"uniqueId": "db3beccd9787d53fddeb44f881f27a0c"
+		},
+		{
+			"name": "Bush Imp",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 317,
+			"size": "S",
+			"type": "plant",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 10,
+				"formula": "3d6"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 3,
+			"dex": 8,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 6,
+			"passive": 10,
+			"resist": [
+				"piercing"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"one language known by its creator"
+			],
+			"cr": "0",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"While the Bush Imp remains motionless, it is indistinguishable from a normal shrub."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Rake",
+					"entries": [
+						"{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"fluff": {
+				"name": "Awakened Shrub",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"An awakened shrub is an ordinary shrub given sentience and mobility by the awaken spell or similar magic."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Bush-Imp.png",
+			"traitTags": [
+				"False Appearance"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "f85bf153eda59780d53c51da3b3e8cfe"
+		},
+		{
+			"name": "Dolphin",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 208,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 0,
+				"swim": 60
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 13,
+			"int": 6,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 13,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the dolphin moves at least 30 feet straight toward a target and then hits it with a slam attack on the same turn, the target takes an extra 3 ({@damage 1d6}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The dolphin can hold its breath for 20 minutes."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"fluff": {
+				"name": "Dolphin",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Dolphins are clever, social marine mammals that feed on small fish and squid. An adult specimen is between 5 and 6 feet long."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Dolphin.png",
+			"traitTags": [
+				"Charge",
+				"Hold Breath"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "5a8d12eb4dc4e3733c5fba3bfb15e0fe"
+		},
+		{
+			"name": "Deep Sea Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Deep-Sea-Crab.png",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/195/giant-crab.mp3",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "3c875b3f6dd7368894284ec8cfff17cc"
+		},
+		{
+			"name": "Hunter Shark",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 330,
+			"size": "L",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"swim": 40
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 15,
+			"int": 1,
+			"wis": 10,
+			"cha": 4,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Blood Frenzy",
+					"entries": [
+						"The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The shark can breathe only underwater."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"fluff": {
+				"name": "Hunter Shark",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Smaller than a giant shark but larger and fiercer than a reef shark, a hunter shark haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long."
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Hunter-Shark.png",
+			"traitTags": [
+				"Water Breathing"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "09285f5f27719ece1288f967e7f7d536"
+		},
+		{
+			"name": "Megawhale",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 331,
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 90,
+				"formula": "12d12 + 12"
+			},
+			"speed": {
+				"swim": 60
+			},
+			"str": 19,
+			"dex": 10,
+			"con": 13,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3"
+			},
+			"senses": [
+				"blindsight 120 ft."
+			],
+			"passive": 13,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Echolocation",
+					"entries": [
+						"The whale can't use its blindsight while {@condition deafened}."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The whale can hold its breath for 30 minutes"
+					]
+				},
+				{
+					"name": "Keen Hearing",
+					"entries": [
+						"The whale has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}21 ({@damage 5d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Megawhale.png",
+			"traitTags": [
+				"Hold Breath",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "6187d38e054067e9e89798b94bed42cc"
+		},
+		{
+			"name": "Poisonous Sea Snake",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 334,
+			"size": "T",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 11,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 10,
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage, and the target must make a {@dc 10} Constitution saving throw, taking 5 ({@damage 2d4}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"swamp"
+			],
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Sea-Snake.png",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "27be7a292f8cd76b7e4963fb7d0d7e89"
+		},
+		{
+			"name": "Morray Eel",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d12 + 8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained}, and the snake can't constrict another target."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"swamp",
+				"underdark",
+				"underwater"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Morray-Eel.png",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"uniqueId": "255f791f3481e8a42569b664f13ce53c"
+		},
+		{
+			"name": "Giant Poisonous Snake",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 327,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 10,
+			"dex": 18,
+			"con": 13,
+			"int": 2,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 12,
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Giant Poisonous Snake.png?v=1.103.8",
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/206/giant-poisonous-snake.mp3",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"uniqueId": "e4071061d6c78fa7851418a520f98286"
+		},
+		{
+			"name": "Toxic Eel",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "H",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 60,
+				"formula": "8d12 + 8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 12,
+			"int": 1,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 12,
+			"cr": "2",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one creature. {@h}11 ({@damage 2d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the creature is {@condition restrained}, and the snake can't constrict another target."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"swamp",
+				"underdark",
+				"underwater"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Toxic-Eel.png",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"uniqueId": "e6eced503e8f41a6faccb9e2a5cb7a8b"
+		},
+		{
+			"name": "Swarm of Crabs",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 338,
+			"size": "M",
+			"type": {
+				"type": "beast",
+				"swarmSize": "T"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 20,
+				"climb": 20
+			},
+			"str": 3,
+			"dex": 13,
+			"con": 10,
+			"int": 1,
+			"wis": 7,
+			"cha": 1,
+			"senses": [
+				"blindsight 10 ft."
+			],
+			"passive": 8,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Swarm",
+					"entries": [
+						"The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bites",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"fluff": {
+				"name": "Swarm of Insects",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "inset",
+										"name": "The Nature of Swarms",
+										"entries": [
+											"The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Hermit-Crab.png",
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "2e6d6f9e58267a7b0837417bd7482768"
+		},
+		{
+			"name": "Giant Pinchy Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Pinchy-Crab.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "c4f7119e03bb077f6a83c145fdcc2184"
+		},
+		{
+			"name": "Giant Terra Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Terra-Crab.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "2b310a1e600d25c2c70aa1a5a62ed4ef"
+		},
+		{
+			"name": "Giant Electro Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Electro-Crab.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "31aa354244e106b64ce194ea76217222"
+		},
+		{
+			"name": "Giant Fungi Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Fungi-Crab.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "6c223cca9e0256ccdabadaf9eba549ac"
+		},
+		{
+			"name": "Giant Gem Crab",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 324,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 13,
+			"dex": 15,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The crab can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+					]
+				}
+			],
+			"environment": [
+				"coastal"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Gem-Crab.png",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"grappled"
+			],
+			"uniqueId": "726625c0c9cdf27bd29b17710739af8c"
 		}
 	]
 }
