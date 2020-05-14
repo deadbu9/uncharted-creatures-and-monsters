@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1588683362,
-		"dateLastModified": 1588683362
+		"dateAdded": 1589439899,
+		"dateLastModified": 1589439899
 	},
 	"monster": [
 		{
@@ -1735,6 +1735,604 @@
 				"grappled"
 			],
 			"uniqueId": "726625c0c9cdf27bd29b17710739af8c"
+		},
+		{
+			"name": "April \"Apopion\" Kowara",
+			"shortName": "Apopion",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d10 + 1",
+				"average": 17
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 9,
+			"dex": 17,
+			"con": 12,
+			"int": 10,
+			"wis": 15,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"str": "+1"
+			},
+			"skill": {
+				"stealth": "+5",
+				"survival": "+6",
+				"perception": "+4",
+				"animal handling": "+6",
+				"nature": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Sylvan",
+				"Elvish",
+				"Dwarvish"
+			],
+			"spellcasting": [
+				{
+					"name": "Favored Foe",
+					"headerEntries": [
+						"Apopion Can cast Hunter's Mark at will, Twice Per long rest"
+					],
+					"rest": {
+						"2": [
+							"{@spell Hunter's Mark}"
+						]
+					},
+					"type": "spellcasting"
+				},
+				{
+					"name": "Druidcraft",
+					"headerEntries": [
+						"Apopion have Thorn Whip and Mold Earth Cantrip"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell Mold Earth|XGE}",
+								"{@spell Thorn Whip}"
+							]
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+					]
+				},
+				{
+					"name": "Ranger Companion : Ratthew",
+					"entries": [
+						"Add your proficiency bonus to the beast's AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals its normal maximum or four times your ranger level, whichever is higher. Like any creature, the beast can spend Hit Dice during a short rest.",
+						"The beast obeys your commands as best as it can. It takes its turn on your initiative. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, or Help action. If you don't issue a command, the beast takes the Dodge action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tabaxi makes two attacks with its claws, its shortsword, or its shortbow."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4}+3) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Tabaxi Hunter",
+				"source": "ToA",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Tabaxi are catfolk who hail from the land of Maztica. The ultimate wanderers, Tabaxi rarely stay in one place for long. They love to collect interesting artifacts, gather tales, and lay eyes on all the world's wonders. This curiosity pushes them to leave no secrets uncovered, and no treasures or legends lost. They revere a fickle deity called the Cat Lord, who is said to wander the world.",
+											"Tabaxi hunters are trained to survive in the wild, making them excellent guides. Tabaxi minstrels gather in small troupes and make themselves at home in any settlement, earning coin through music and storytelling.",
+											{
+												"name": "Names",
+												"type": "entries",
+												"entries": [
+													"A tabaxi typically has a single name, determined by his or her clan and based on a complex formula involving astrology, prophecy, clan history, and other factors. Male and female tabaxi use the same names, and most use nicknames derived from or inspired by their full names. Tabaxi clan names are usually based on a geographical feature located in or near a clan's territory. Sample tabaxi names include Nest of Eggs (\"Eggs\"), Dead Leaf (\"Leaf\"), Eyes of Onyx (\"Onyx\"), Lost Spear (\"Lost\"), and Daylight Moon (\"Moon\"). Clan names include Distant Rain, Hundred Feathers, Sleeping Creek, Bright Cliffs, and Snoring Mountain."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Homestead/Apophion.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"D",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"uniqueId": "9ea05a67d7dfa5699340e09ca459b388"
+		},
+		{
+			"name": "June \"Jakko\" Kowara",
+			"shortName": "Apopion",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tabaxi"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 1",
+				"average": 14
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 20
+			},
+			"str": 8,
+			"dex": 17,
+			"con": 11,
+			"int": 15,
+			"wis": 12,
+			"cha": 13,
+			"save": {
+				"dex": "+5",
+				"int": "+4"
+			},
+			"skill": {
+				"sleight of hand": "+7",
+				"investigation": "+4",
+				"stealth": "+5",
+				"perception": "+3",
+				"acrobatics": "+5",
+				"performance": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Sylvan",
+				"Thieves' cant"
+			],
+			"trait": [
+				{
+					"name": "Feline Agility",
+					"entries": [
+						"When the tabaxi moves on its turn in combat, it can double its speed until the end of the turn. Once it uses this ability, the tabaxi can't use it again until it moves 0 feet on one of its turns."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, you can deal an extra  ({{@dice 2d6}}) damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+						"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.",
+						"You gain an additional way to use your Cunning Action: carefully aiming your next attack. As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+					]
+				},
+				{
+					"name": "Fast Hands",
+					"entries": [
+						"you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action."
+					]
+				},
+				{
+					"name": "Second-Story Work",
+					"entries": [
+						"you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
+						"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The tabaxi makes two attacks with its claws, its shortsword, or its shortbow."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4}+3) slashing damage."
+					]
+				},
+				{
+					"name": "Chef Knives",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage.",
+						"A knive as big as a short sword. what a wild cat"
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/120 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Tabaxi Hunter",
+				"source": "ToA",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Tabaxi are catfolk who hail from the land of Maztica. The ultimate wanderers, Tabaxi rarely stay in one place for long. They love to collect interesting artifacts, gather tales, and lay eyes on all the world's wonders. This curiosity pushes them to leave no secrets uncovered, and no treasures or legends lost. They revere a fickle deity called the Cat Lord, who is said to wander the world.",
+											"Tabaxi hunters are trained to survive in the wild, making them excellent guides. Tabaxi minstrels gather in small troupes and make themselves at home in any settlement, earning coin through music and storytelling.",
+											{
+												"name": "Names",
+												"type": "entries",
+												"entries": [
+													"A tabaxi typically has a single name, determined by his or her clan and based on a complex formula involving astrology, prophecy, clan history, and other factors. Male and female tabaxi use the same names, and most use nicknames derived from or inspired by their full names. Tabaxi clan names are usually based on a geographical feature located in or near a clan's territory. Sample tabaxi names include Nest of Eggs (\"Eggs\"), Dead Leaf (\"Leaf\"), Eyes of Onyx (\"Onyx\"), Lost Spear (\"Lost\"), and Daylight Moon (\"Moon\"). Clan names include Distant Rain, Hundred Feathers, Sleeping Creek, Bright Cliffs, and Snoring Mountain."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Homestead/Jakko.png",
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"S",
+				"TC"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"uniqueId": "d268aa3c260c720f65fed86e04ca1f8a"
+		},
+		{
+			"name": "Ratthew",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"formula": "4d6 + 0",
+				"average": 12
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 15,
+			"con": 11,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"variant": [
+				{
+					"name": "Diseased Giant Rats",
+					"entries": [
+						"Some giant rats carry vile diseases that they spread with their bites.",
+						{
+							"type": "entries",
+							"name": "Bite",
+							"entries": [
+								"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage. If the target is a creature, it must succeed on a {@dc 10} Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+							]
+						}
+					],
+					"type": "variant"
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp",
+				"underdark",
+				"urban"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Homestead/Ratthew.png",
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "151191f8b0443f9c2f1055d4aad33214"
+		},
+		{
+			"name": "Mrs Bok Bok",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 10,
+			"con": 13,
+			"int": 2,
+			"wis": 10,
+			"cha": 5,
+			"passive": 10,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Beast of Burden",
+					"entries": [
+						"The Big Chicken is considered to be a Large animal for the purpose of determining its carrying capacity."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hooves",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"hill",
+				"urban"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Homestead/Ms-Bok-Bok.png",
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "838ca176b3b8c93604fae78600b225ee"
+		},
+		{
+			"name": "Water Buffalo",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 15,
+				"formula": "2d10 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 10,
+			"con": 14,
+			"int": 2,
+			"wis": 10,
+			"cha": 4,
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the buffalo moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 7 ({@damage 2d6}) piercing damage."
+					]
+				},
+				{
+					"name": "Beast of Burden",
+					"entries": [
+						"The Buffalo is considered to be a Large animal for the purposes of determining its carrying capacity."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Gore",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"fluff": {
+				"name": "Ox",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"An ox is mainly used for draft work rather than meat or milk."
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Water-Buffalo.png",
+			"traitTags": [
+				"Charge"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "851145d6fc8aeb0508eca191a22221f8"
 		}
 	]
 }
