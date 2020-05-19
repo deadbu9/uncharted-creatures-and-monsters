@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1589439899,
-		"dateLastModified": 1589439899
+		"dateAdded": 1589891704,
+		"dateLastModified": 1589891704
 	},
 	"monster": [
 		{
@@ -28,11 +28,10 @@
 			],
 			"group": "Porings",
 			"source": "UnchartedCreaturesandMonsters",
-			"size": "T",
+			"size": "S",
 			"type": "ooze",
 			"alignment": [
-				"C",
-				"N"
+				"U"
 			],
 			"ac": [
 				13
@@ -58,6 +57,18 @@
 				"blindsight 60 ft."
 			],
 			"passive": 12,
+			"resist": [
+				"fire"
+			],
+			"immune": [
+				"acid"
+			],
+			"vulnerable": [
+				"cold",
+				"piercing",
+				"slashing",
+				"thunder"
+			],
 			"conditionImmune": [
 				"blinded",
 				"charmed",
@@ -135,17 +146,15 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "cd3929fca1342f718e2df5e74cbe0df4"
+			"uniqueId": "f7ca6274934945f1fc7f5987c2e6e4d7"
 		},
 		{
 			"name": "Slime base",
 			"source": "UnchartedCreaturesandMonsters",
-			"page": 217,
-			"size": "T",
+			"size": "S",
 			"type": "ooze",
 			"alignment": [
-				"L",
-				"E"
+				"U"
 			],
 			"ac": [
 				13
@@ -288,7 +297,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"uniqueId": "3ceeb4b6d09dd35977515f04404a04f3"
+			"uniqueId": "6f825e71a7af10958f61b187822b8795"
 		},
 		{
 			"name": "Acid Slime",
@@ -302,7 +311,7 @@
 			],
 			"group": "Porings",
 			"source": "UnchartedCreaturesandMonsters",
-			"size": "T",
+			"size": "S",
 			"type": "ooze",
 			"alignment": [
 				"C",
@@ -332,6 +341,18 @@
 				"blindsight 60 ft."
 			],
 			"passive": 12,
+			"resist": [
+				"cold"
+			],
+			"immune": [
+				"acid",
+				"poison"
+			],
+			"vulnerable": [
+				"fire",
+				"piercing",
+				"slashing"
+			],
 			"conditionImmune": [
 				"blinded",
 				"charmed",
@@ -417,12 +438,11 @@
 				"MW",
 				"RW"
 			],
-			"uniqueId": "b038ff25c4059e4c2775abddfbe6cfc5"
+			"uniqueId": "f35886c76ab598c387d86c180b7d47f8"
 		},
 		{
 			"name": "Branchleg",
 			"source": "UnchartedCreaturesandMonsters",
-			"page": 325,
 			"size": "H",
 			"type": "plant",
 			"alignment": [
@@ -464,6 +484,12 @@
 					"name": "Charge",
 					"entries": [
 						"If the Branchleg moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Living Plants",
+					"entries": [
+						"The Branchleg regains 8 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the Branchleg's next turn. The Branchleg dies only if it starts its turn with 0 hit points and doesn't regenerate."
 					]
 				}
 			],
@@ -524,7 +550,7 @@
 			"conditionInflict": [
 				"prone"
 			],
-			"uniqueId": "db3beccd9787d53fddeb44f881f27a0c"
+			"uniqueId": "e6a38589678aabeacf36265ad2377947"
 		},
 		{
 			"name": "Bush Imp",
@@ -2333,6 +2359,1164 @@
 				"MW"
 			],
 			"uniqueId": "851145d6fc8aeb0508eca191a22221f8"
+		},
+		{
+			"name": "Honey Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Pink Puni",
+				"Pink Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "5d6 + 10",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 4,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "-1",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"cold",
+				"fire",
+				"poison"
+			],
+			"vulnerable": [
+				"piercing",
+				"slashing",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Honey Flavor",
+					"entries": [
+						"This creature taste like Honey, biting in radical fashion will likely result in {@damage 1d4} healing."
+					]
+				},
+				{
+					"name": "Summon Swarm Of Bee",
+					"entries": [
+						"The Slime Has innate Ability to summon Bee whenever it's attacked or Die, the bees will target the attacker or killer."
+					]
+				},
+				{
+					"name": "Limited Movement",
+					"entries": [
+						"Since Honey viscosity is high, the slime has it's movement halved to 15ft most of the time"
+					]
+				},
+				{
+					"name": "Water Weird",
+					"entries": [
+						"Splashing water might do something to this slime"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Suffocate",
+					"entries": [
+						"The Slime try to wrap itself on enemy head to suffocate them, the target must succeed on a {@dc 15} Strength or Dexterity saving throw or take  {@damage 1d10} Damage, per turn it stays there"
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Honey-Slime.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "1ba3d0b340ada26d5da69b5613ebc821"
+		},
+		{
+			"name": "Flora Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Pink Puni",
+				"Pink Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "5d4 + 10",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 4,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "-1",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"poison"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/2",
+			"spellcasting": [
+				{
+					"name": "Flora Slime Blessing",
+					"headerEntries": [
+						"Flora Slime could spread it's pollen to it's allies to mend their wound at will"
+					],
+					"will": [
+						"{@spell Healing Word}"
+					],
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Flower Scent",
+					"entries": [
+						"This creature smells like Flower. biting in radical fashion will likely result in your mouth smell fresh like flowers."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Seed Spit",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 30 ft., one target. {@h}5 ({@damage 1d4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Suffocate",
+					"entries": [
+						"The Slime try to wrap itself on enemy head to suffocate them, the target must succeed on a {@dc 12} Strength or Dexterity saving throw or take  {@damage 1d6} Damage, per turn it stays there"
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Flora-Slime.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"uniqueId": "8d9dc0c9305cbcb3aaa6569f7d496868"
+		},
+		{
+			"name": "Tiger Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Green Puni",
+				"Green Poring",
+				"Acid Puni",
+				"Acid Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "7d6 + 14",
+				"average": 38
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 15,
+			"int": 4,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "-1",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"force",
+				"psychic"
+			],
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Taste of the Wild",
+					"entries": [
+						"When you bite into this creature you feel a surge of primal energy flowing trough you, you now has advantage on Wisdom (Perception) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the Tiger Slime moves at least 20 feet straight toward a creature and then hits it with a Body Slam attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the tiger can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Tiger Slime make one Body Slam and One Bite Attack"
+					]
+				},
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Acid-Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Tiger-Slime.png",
+			"traitTags": [
+				"Amorphous",
+				"Pounce"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"uniqueId": "93f82ead209f5f7eca7d34b906d18d02"
+		},
+		{
+			"name": "Rabbid Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Green Puni",
+				"Green Poring",
+				"Acid Puni",
+				"Acid Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "7d6 + 14",
+				"average": 38
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 15,
+			"int": 4,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "-1",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"force",
+				"psychic"
+			],
+			"vulnerable": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Taste of the Wild",
+					"entries": [
+						"When you bite into this creature you feel a surge of primal energy flowing trough you, you now has advantage on Wisdom (Perception) checks that rely on Sight."
+					]
+				},
+				{
+					"name": "Windwalk",
+					"entries": [
+						"If the Rabbid Slime moves at least 10 feet straight toward a creature and then hits it with a Wind Cutter attack on the same turn, that target must succeed on a {@dc 13} Widom saving throw or Rabbid Slime move behind the target."
+					]
+				},
+				{
+					"name": "Backstabber",
+					"entries": [
+						"Rabbid Slime has Advantage on attacking creature that has it's back turned against it, It can attack Backstabbed Creature as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Hidden Cutter",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 10 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Acid-Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Rabid-Slime.png",
+			"traitTags": [
+				"Amorphous"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"uniqueId": "0dd9ff7ba3bf44ee5577e55d90628cfe"
+		},
+		{
+			"name": "Rock Slime",
+			"alias": [
+				"Puni",
+				"Poring",
+				"Green Puni",
+				"Green Poring",
+				"Acid Puni",
+				"Acid Poring"
+			],
+			"group": "Porings",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				18
+			],
+			"hp": {
+				"formula": "4d4 + 8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 15,
+			"int": 4,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"int": "-1",
+				"cha": "+2"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"cold",
+				"fire",
+				"lightning"
+			],
+			"vulnerable": [
+				"acid",
+				"poison",
+				"thunder"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The slime can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Aversion To Acid",
+					"entries": [
+						"If the Rock slime takes acid damage, it's outer shell will be shaved by {@damage 1d3} AC"
+					]
+				},
+				{
+					"name": "Death Burst",
+					"entries": [
+						"When the Rock Slime dies, it explodes in a burst of Rocks. Each creature within 5 feet of it must make a {@dc 11} Dexterity saving throw, taking 7 ({@damage 2d6}) fire damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Precious Loot",
+					"entries": [
+						"Rock Slime usually have some valuable rock inside it's body"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Body Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage. Target must make a {@dc 13} Dexterity saving throw, or be {@condition restrained} by mud. Water Spell could easily dispel the restraint or a {@dc 10} Strength Check to get yourself out of the mud."
+					]
+				},
+				{
+					"name": "Mud Rock",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 30/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) Bludgeoning damage.Target must make a {@dc 11} Dexterity saving throw, or be {@condition restrained} by mud. Water Spell could easily dispel the restraint or a {@dc 10} Strength Check to get yourself out of the mud."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp"
+			],
+			"fluff": {
+				"entries": [
+					"A jelly like creature, some say it's weaker than a cat but don't be fooled, those shiny and bubbly body can stretch and bend like crazy making it hard to hit if it's aware of you, often called as Puni, Poring, or just slime"
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Acid-Slime.png"
+						}
+					}
+				]
+			},
+			"familiar": true,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Rock-Slime.png",
+			"traitTags": [
+				"Amorphous",
+				"Death Burst"
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				null,
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"uniqueId": "25400ebf6d854bf74ed6d04854443550"
+		},
+		{
+			"name": "Branchleg  Rider",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d6 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 7,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"lightning",
+				"piercing"
+			],
+			"languages": [
+				"Plant"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Plant Camouflage",
+					"entries": [
+						"The Branchleg has advantage on Dexterity ({@skill Stealth}) checks it makes in any terrain with ample obscuring plant life."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Branchleg regains 5 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the Branchleg's next turn. The Branchleg dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Branchleg makes two attacks with its claws or two melee attacks with its spear."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Living Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Spores (1/Day)",
+					"entries": [
+						"A 15-foot-radius cloud of toxic spores extends out from the Branchleg. The spores spread around corners. Each creature in that area that isn't a plant must succeed on a {@dc 12} Constitution saving throw or be {@condition poisoned}. While {@condition poisoned} in this way, a target takes 9 ({@damage 2d8}) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"name": "Vegepygmy Chief",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Vegepygmies are fungus creatures that live in simple tribal units, hunting for sustenance and spreading the spores from which they reproduce.",
+											{
+												"name": "Primitive Plants",
+												"entries": [
+													" Vegepygmies, also called mold folk or moldies, inhabit dark areas that are warm and wet, so they are most commonly found underground or in dense forests where little sunlight penetrates. A vegepygmy instinctively feels kinship with other plant and fungus creatures, and thus vegepygmy tribes coexist well with creatures such as myconids, shriekers, and violet fungi.",
+													"Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb nutrients from soil and many sorts of organic matter, meaning that they rarely go hungry. A vegepygmy can hiss and make other noises by forcing air through its mouth, but it can't speak in a conventional sense. Among themselves, vegepygmies communicate by hissing, gestures, and rhythmic tapping on the body. Vegepygmies build and craft little; any gear they have is acquired from other creatures or built by copying simple construction they have witnessed.",
+													"As a vegepygmy ages, it grows tougher and develops spore clusters on its body. Spore-bearing vegepygmies are deferred to by other vegepygmies, so outsiders refer to such vegepygmies as chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way russet mold does.",
+													"No one knows for sure where russet mold came from. One historical account tells of adventurers in a forbidding mountain range discovering russet mold and vegepygmies in a peculiar metal dungeon full of strange life. Another story says that explorers found russet mold in a crater left by a falling star, with vegepygmies infesting the dense jungle nearby."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Mold Begets Mold",
+												"entries": [
+													" Vegepygmies originate from the remains left behind when a humanoid or a giant is killed by russet mold. One or more vegepygmies emerge from the corpse a day later. If a beast such as a dog or a bear dies from russet mold, the result is a bestial moldie called a thorny result instead of a humanoid-shaped vegepygmy. Thornies are less intelligent than vegepygmies, but have greater size and ferocity, as well as a thorn-covered body."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Russet Mold",
+										"entries": [
+											"The fungus known as russet mold is reddish-brown in color and found only in places that are dark, warm, and wet. Russet mold that spreads out across a metal object can be mistaken for natural rust, and a successful DC 15 Intelligence (Nature) or Wisdom (Survival) check is required to identify it accurately by sight in such a case.",
+											"Any creature that comes within 5 feet of russet mold must make a DC 13 Constitution saving throw as the mold emits a puff of spores. On a failed save, the creature becomes poisoned. While poisoned in this way, the creature takes 7 ({@dice 2d6}) poison damage at the start of each of its turns, sprouting mold as it takes damage. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any magic that neutralizes poison or cures disease kills the infestation. A creature reduced to 0 hit points by the mold's poison damage dies. If the dead creature is a beast, a giant, or a humanoid, one or more newborn vegepygmies emerge from its body 24 hours later: one newborn from a Small corpse, two from a Medium corpse, four from a Large corpse, eight from a Huge corpse, or sixteen from a Gargantuan corpse.",
+											"Russet mold can be hard to kill, since weapons and most types of damage do it no harm. Effects that deal acid, necrotic, or radiant damage kill 1 square foot of russet mold per 1 damage dealt. A pound of salt, a gallon of alcohol, or a magical effect that cures disease kills russet mold in a square area that is 10 feet on a side. Sunlight kills any russet mold in the light's area."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Vegepygmy.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Branchleg-Spewling.png",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"I",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"uniqueId": "be0e802c9b1a1fe696c00f6ac2d422d1"
+		},
+		{
+			"name": "Branchleg Spewling",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "plant",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d6 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 14,
+			"con": 13,
+			"int": 6,
+			"wis": 11,
+			"cha": 7,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"resist": [
+				"lightning",
+				"piercing"
+			],
+			"languages": [
+				"Plant"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Plant Camouflage",
+					"entries": [
+						"The Branchleg has advantage on Dexterity ({@skill Stealth}) checks it makes in any terrain with ample obscuring plant life."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Branchleg regains 3 hit points at the start of its turn. If it takes cold, fire, or necrotic damage, this trait doesn't function at the start of the Branchleg's next turn. The Branchleg dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Living Spear",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"swamp"
+			],
+			"fluff": {
+				"name": "Vegepygmy",
+				"source": "VGM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"entries": [
+											"Vegepygmies are fungus creatures that live in simple tribal units, hunting for sustenance and spreading the spores from which they reproduce.",
+											{
+												"name": "Primitive Plants",
+												"entries": [
+													" Vegepygmies, also called mold folk or moldies, inhabit dark areas that are warm and wet, so they are most commonly found underground or in dense forests where little sunlight penetrates. A vegepygmy instinctively feels kinship with other plant and fungus creatures, and thus vegepygmy tribes coexist well with creatures such as myconids, shriekers, and violet fungi.",
+													"Although they prefer to eat fresh meat, bone, and blood, vegepygmies can absorb nutrients from soil and many sorts of organic matter, meaning that they rarely go hungry. A vegepygmy can hiss and make other noises by forcing air through its mouth, but it can't speak in a conventional sense. Among themselves, vegepygmies communicate by hissing, gestures, and rhythmic tapping on the body. Vegepygmies build and craft little; any gear they have is acquired from other creatures or built by copying simple construction they have witnessed.",
+													"As a vegepygmy ages, it grows tougher and develops spore clusters on its body. Spore-bearing vegepygmies are deferred to by other vegepygmies, so outsiders refer to such vegepygmies as chiefs. A chief can expel its spores in a burst, infecting nearby creatures. If a creature dies while infected, its corpse produces vegepygmies the same way russet mold does.",
+													"No one knows for sure where russet mold came from. One historical account tells of adventurers in a forbidding mountain range discovering russet mold and vegepygmies in a peculiar metal dungeon full of strange life. Another story says that explorers found russet mold in a crater left by a falling star, with vegepygmies infesting the dense jungle nearby."
+												],
+												"type": "entries"
+											},
+											{
+												"name": "Mold Begets Mold",
+												"entries": [
+													" Vegepygmies originate from the remains left behind when a humanoid or a giant is killed by russet mold. One or more vegepygmies emerge from the corpse a day later. If a beast such as a dog or a bear dies from russet mold, the result is a bestial moldie called a thorny result instead of a humanoid-shaped vegepygmy. Thornies are less intelligent than vegepygmies, but have greater size and ferocity, as well as a thorn-covered body."
+												],
+												"type": "entries"
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Russet Mold",
+										"entries": [
+											"The fungus known as russet mold is reddish-brown in color and found only in places that are dark, warm, and wet. Russet mold that spreads out across a metal object can be mistaken for natural rust, and a successful DC 15 Intelligence (Nature) or Wisdom (Survival) check is required to identify it accurately by sight in such a case.",
+											"Any creature that comes within 5 feet of russet mold must make a DC 13 Constitution saving throw as the mold emits a puff of spores. On a failed save, the creature becomes poisoned. While poisoned in this way, the creature takes 7 ({@dice 2d6}) poison damage at the start of each of its turns, sprouting mold as it takes damage. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any magic that neutralizes poison or cures disease kills the infestation. A creature reduced to 0 hit points by the mold's poison damage dies. If the dead creature is a beast, a giant, or a humanoid, one or more newborn vegepygmies emerge from its body 24 hours later: one newborn from a Small corpse, two from a Medium corpse, four from a Large corpse, eight from a Huge corpse, or sixteen from a Gargantuan corpse.",
+											"Russet mold can be hard to kill, since weapons and most types of damage do it no harm. Effects that deal acid, necrotic, or radiant damage kill 1 square foot of russet mold per 1 damage dealt. A pound of salt, a gallon of alcohol, or a magical effect that cures disease kills russet mold in a square area that is 10 feet on a side. Sunlight kills any russet mold in the light's area."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/VGM/Vegepygmy.jpg"
+						}
+					}
+				]
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Branchleg-Spewling.png",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"uniqueId": "8e71389fa68c4a4aa096be6c6f317585"
+		},
+		{
+			"name": "Mini Golem",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "S",
+			"type": "construct",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "5d6 + 5",
+				"average": 22
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 13,
+			"int": 6,
+			"wis": 10,
+			"cha": 5,
+			"save": {
+				"con": "+3",
+				"str": "+4"
+			},
+			"senses": [
+				"tremorsense 60 ft."
+			],
+			"passive": 10,
+			"resist": [
+				"piercing",
+				"slashing"
+			],
+			"immune": [
+				"lightning",
+				"poison"
+			],
+			"vulnerable": [
+				"bludgeoning"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"poisoned"
+			],
+			"languages": [
+				"understands the languages of its creator but can't speak"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Berserk",
+					"entries": [
+						"Whenever the golem starts its turn with 40 hit points or fewer, roll a {@dice d6}. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.",
+						"The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a {@dc 15} Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
+					]
+				},
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The golem is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The golem has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Magic Weapons",
+					"entries": [
+						"The golem's weapon attacks are magical."
+					]
+				},
+				{
+					"name": "Mending Magic",
+					"entries": [
+						"The Golem regains 4 hit points at the start of its turn. this trait doesn't function if the Golem has less than 50% of it's HP."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Monsters/Green-Golem.png",
+			"traitTags": [
+				"Immutable Form",
+				"Magic Resistance",
+				"Magic Weapons"
+			],
+			"senseTags": [
+				"T"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"uniqueId": "e3a3cd20639b7950b225a2dae5b70fd5"
 		}
 	]
 }
