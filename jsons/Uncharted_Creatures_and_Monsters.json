@@ -14,8 +14,8 @@
 				]
 			}
 		],
-		"dateAdded": 1589891704,
-		"dateLastModified": 1589891704
+		"dateAdded": 1604574995,
+		"dateLastModified": 1604574995
 	},
 	"monster": [
 		{
@@ -145,8 +145,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "f7ca6274934945f1fc7f5987c2e6e4d7"
+			]
 		},
 		{
 			"name": "Slime base",
@@ -296,8 +295,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "6f825e71a7af10958f61b187822b8795"
+			]
 		},
 		{
 			"name": "Acid Slime",
@@ -437,8 +435,7 @@
 			"miscTags": [
 				"MW",
 				"RW"
-			],
-			"uniqueId": "f35886c76ab598c387d86c180b7d47f8"
+			]
 		},
 		{
 			"name": "Branchleg",
@@ -549,8 +546,7 @@
 			],
 			"conditionInflict": [
 				"prone"
-			],
-			"uniqueId": "e6a38589678aabeacf36265ad2377947"
+			]
 		},
 		{
 			"name": "Bush Imp",
@@ -633,8 +629,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "49438171ad2a5eb3321c5cb7e03e38f0"
+			]
 		},
 		{
 			"name": "Dolphin",
@@ -736,8 +731,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "5a8d12eb4dc4e3733c5fba3bfb15e0fe"
+			]
 		},
 		{
 			"name": "Deep Sea Crab",
@@ -813,8 +807,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "3c875b3f6dd7368894284ec8cfff17cc"
+			]
 		},
 		{
 			"name": "Hunter Shark",
@@ -908,8 +901,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "09285f5f27719ece1288f967e7f7d536"
+			]
 		},
 		{
 			"name": "Megawhale",
@@ -993,8 +985,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "6187d38e054067e9e89798b94bed42cc"
+			]
 		},
 		{
 			"name": "Poisonous Sea Snake",
@@ -1054,8 +1045,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "27be7a292f8cd76b7e4963fb7d0d7e89"
+			]
 		},
 		{
 			"name": "Morray Eel",
@@ -1127,8 +1117,7 @@
 			"conditionInflict": [
 				"grappled",
 				"restrained"
-			],
-			"uniqueId": "255f791f3481e8a42569b664f13ce53c"
+			]
 		},
 		{
 			"name": "Giant Poisonous Snake",
@@ -1192,8 +1181,7 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "e4071061d6c78fa7851418a520f98286"
+			]
 		},
 		{
 			"name": "Toxic Eel",
@@ -1265,8 +1253,7 @@
 			"conditionInflict": [
 				"grappled",
 				"restrained"
-			],
-			"uniqueId": "e6eced503e8f41a6faccb9e2a5cb7a8b"
+			]
 		},
 		{
 			"name": "Swarm of Crabs",
@@ -1379,8 +1366,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "2e6d6f9e58267a7b0837417bd7482768"
+			]
 		},
 		{
 			"name": "Giant Pinchy Crab",
@@ -1455,8 +1441,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "fd485300e43ff71a39bcdaa15d795f48"
+			]
 		},
 		{
 			"name": "Giant Terra Crab",
@@ -1531,8 +1516,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "2b310a1e600d25c2c70aa1a5a62ed4ef"
+			]
 		},
 		{
 			"name": "Giant Electro Crab",
@@ -1607,8 +1591,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "31aa354244e106b64ce194ea76217222"
+			]
 		},
 		{
 			"name": "Giant Fungi Crab",
@@ -1683,8 +1666,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "6c223cca9e0256ccdabadaf9eba549ac"
+			]
 		},
 		{
 			"name": "Giant Gem Crab",
@@ -1759,8 +1741,7 @@
 			],
 			"conditionInflict": [
 				"grappled"
-			],
-			"uniqueId": "726625c0c9cdf27bd29b17710739af8c"
+			]
 		},
 		{
 			"name": "April \"Apopion\" Kowara",
@@ -1941,8 +1922,7 @@
 				"MW",
 				"RNG",
 				"RW"
-			],
-			"uniqueId": "9ea05a67d7dfa5699340e09ca459b388"
+			]
 		},
 		{
 			"name": "June \"Jakko\" Kowara",
@@ -2118,8 +2098,7 @@
 			],
 			"conditionInflict": [
 				"incapacitated"
-			],
-			"uniqueId": "d268aa3c260c720f65fed86e04ca1f8a"
+			]
 		},
 		{
 			"name": "Ratthew",
@@ -2210,8 +2189,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "151191f8b0443f9c2f1055d4aad33214"
+			]
 		},
 		{
 			"name": "Mrs Bok Bok",
@@ -2272,8 +2250,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "838ca176b3b8c93604fae78600b225ee"
+			]
 		},
 		{
 			"name": "Water Buffalo",
@@ -2357,8 +2334,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "851145d6fc8aeb0508eca191a22221f8"
+			]
 		},
 		{
 			"name": "Honey Slime",
@@ -2497,8 +2473,7 @@
 			],
 			"miscTags": [
 				"MW"
-			],
-			"uniqueId": "1ba3d0b340ada26d5da69b5613ebc821"
+			]
 		},
 		{
 			"name": "Flora Slime",
@@ -2628,8 +2603,7 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "8d9dc0c9305cbcb3aaa6569f7d496868"
+			]
 		},
 		{
 			"name": "Tiger Slime",
@@ -2780,8 +2754,7 @@
 			],
 			"conditionInflict": [
 				"prone"
-			],
-			"uniqueId": "93f82ead209f5f7eca7d34b906d18d02"
+			]
 		},
 		{
 			"name": "Rabbid Slime",
@@ -2926,8 +2899,7 @@
 			"miscTags": [
 				"MW",
 				"RCH"
-			],
-			"uniqueId": "0dd9ff7ba3bf44ee5577e55d90628cfe"
+			]
 		},
 		{
 			"name": "Rock Slime",
@@ -3075,8 +3047,7 @@
 			],
 			"conditionInflict": [
 				"restrained"
-			],
-			"uniqueId": "25400ebf6d854bf74ed6d04854443550"
+			]
 		},
 		{
 			"name": "Branchleg  Rider",
@@ -3247,8 +3218,7 @@
 			],
 			"conditionInflict": [
 				"poisoned"
-			],
-			"uniqueId": "be0e802c9b1a1fe696c00f6ac2d422d1"
+			]
 		},
 		{
 			"name": "Branchleg Spewling",
@@ -3399,8 +3369,7 @@
 				"MW",
 				"RW",
 				"THW"
-			],
-			"uniqueId": "8e71389fa68c4a4aa096be6c6f317585"
+			]
 		},
 		{
 			"name": "Mini Golem",
@@ -3515,8 +3484,1316 @@
 			],
 			"miscTags": [
 				"MW"
+			]
+		},
+		{
+			"name": "Goblin Warlord Raktor",
+			"shortName": "Raktor",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
 			],
-			"uniqueId": "e3a3cd20639b7950b225a2dae5b70fd5"
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 97,
+				"formula": "13d8 + 39"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 14,
+			"con": 16,
+			"int": 14,
+			"wis": 11,
+			"cha": 15,
+			"save": {
+				"int": "+5",
+				"wis": "+3",
+				"cha": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Strike as One !",
+					"entries": [
+						"Once per turn, the Goblin Warlord  can deal an extra 14 ({@damage 4d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Golin Warlord makes three melee attacks. Alternatively, it can make two ranged attacks with its javelins."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage. If the target is Large or smaller, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 9} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Commanding Presence",
+					"entries": [
+						"Once Per Turn, the Warlord can sacrifice any goblin to make any goblin that can hear and see it within 30 feet get advantage on it's action.",
+						"\"GET YOUR LEGS MOVING YOU SHIT STAINED MAGGOT, OR YOU'RE NEXT\""
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The hobgoblin adds 3 to its AC against one melee attack that would hit it. To do so, the hobgoblin must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Warlord.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"B",
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Goblin Warband",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item half plate armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 10,
+			"cha": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, the Goblin Warband can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the Goblin that isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Goblin Warband makes two Great Axe attacks."
+					]
+				},
+				{
+					"name": "Great Axe",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Javelin",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Brutal Command (Recharges on 6)",
+					"entries": [
+						"For 1 minute, the Warband can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the hobgoblin. A creature can benefit from only one Leadership die at a time. This effect ends if the hobgoblin is {@condition incapacitated}."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Warband.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Goblin",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 166,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 14,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Knives",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Stone",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Fodder.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/goblin.mp3?v=1.114.1"
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
+			"name": "Grom The Humongous Goblin",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "L",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"condition": "Thicc Fat"
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 50",
+				"average": 95
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 18,
+			"dex": 8,
+			"con": 20,
+			"int": 16,
+			"wis": 16,
+			"cha": 8,
+			"save": {
+				"con": "+8",
+				"str": "+7"
+			},
+			"skill": {
+				"arcana": "+6",
+				"athletics": "+7",
+				"insight": "+6"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Grom is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell fire bolt}",
+								"{@spell ray of frost}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell fog cloud}",
+								"{@spell magic missile}",
+								"{@spell thunderwave}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell gust of wind}",
+								"{@spell Melf's acid arrow}",
+								"{@spell scorching ray}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell fireball}",
+								"{@spell fly}",
+								"{@spell lightning bolt}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell ice storm}"
+							],
+							"slots": 1
+						}
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Wicked Spell",
+					"entries": [
+						"Once per turn, the Grom can deal an extra 7 ({@damage 2d6}) damage to a creature it hits with a damaging spell attack if that target is within 5 feet of an ally and that ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Army Arcana",
+					"entries": [
+						"When the Grom casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
+					]
+				},
+				{
+					"name": "Chariot Ride",
+					"entries": [
+						"Grom by default is riding a chariot pulled by 2 warg.",
+						"his speed is 40ft"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Quarterstaff",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, or 5 ({@damage 1d8 + 1}) bludgeoning damage if used with two hands."
+					]
+				},
+				{
+					"name": "Eat Up ! NOM NOM NOM!",
+					"entries": [
+						"Grom can eat his own kind an heal him for 14 ({@damage 2d6 + 5}) Health Points"
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Grom-ThePaunch.png",
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"B"
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "Goblin Rabids",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 27,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 15,
+			"dex": 14,
+			"con": 13,
+			"int": 8,
+			"wis": 11,
+			"cha": 9,
+			"skill": {
+				"stealth": "+6",
+				"acrobatics": "+4",
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Brute",
+					"entries": [
+						"A melee weapon deals one extra die of its damage when the Goblin Rabids hits with it (included in the attack)."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Goblin Rabids can take the Disengage or Hide action as a bonus action on each of his turns."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multi Attack",
+					"entries": [
+						"Goblin Rabids makes two claw attacks."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage"
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Feral-Blon.png",
+			"traitTags": [
+				"Brute"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			]
+		},
+		{
+			"name": "Goblin Mages",
+			"isNpc": true,
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 261,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				{
+					"alignment": [
+						"C",
+						"G"
+					],
+					"note": "chaotic evil when fully possessed"
+				}
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|PHB}"
+					]
+				},
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 40,
+				"formula": "9d6 + 9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 10,
+			"wis": 13,
+			"cha": 14,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Goblin Mage innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). they can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell eldritch blast}",
+						"{@spell false life}",
+						"{@spell mage armor}",
+						"{@spell mage hand}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell charm person}",
+							"{@spell hex}",
+							"{@spell hold person}",
+							"{@spell invisibility}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Dark One's Blessing",
+					"entries": [
+						"When Goblin Mages reduces a hostile creature to 0 hit points, she gains 6 temporary hit points."
+					]
+				},
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"Goblin Mages can take the Disengage or Hide action as a bonus action on each of her turns."
+					]
+				},
+				{
+					"name": "Dark Portals",
+					"entries": [
+						"Goblin Mages can opt out it's action to channel dark portal from beyond to call more goblins, up to  ({@damage 1d3}) goblin per turn"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Goblin Mages makes two melee attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Eldritch Blast (Cantrip)",
+					"entries": [
+						"{@atk rs} {@hit 4} to hit, range 120 ft., one creature. {@h}7 ({@damage 1d10 + 2}) force damage."
+					]
+				}
+			],
+			"legendaryActions": 2,
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Gobin-Mage.png",
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"O",
+				"P"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			]
+		},
+		{
+			"name": "Goblin Troll",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 291,
+			"size": "M",
+			"type": "giant",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 25",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 20,
+			"int": 7,
+			"wis": 9,
+			"cha": 7,
+			"skill": {
+				"perception": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 12,
+			"languages": [
+				"Giant",
+				"Goblin"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Deformed Creature",
+					"entries": [
+						"The troll has disadvantage on Wisdom ({@skill Perception}) checks that rely on smell and sight."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The Goblin troll regains 5 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Mounted Beast",
+					"entries": [
+						"If any smaller goblin mounted the Goblin Troll, The penalty of Deformity is nullified and it's has advantage on it's attack.",
+						"The Smaller Goblin will lose it's action for automatic help action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Goblin Troll makes Two attacks: one with its bite and One with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Troll.png",
+			"traitTags": [
+				"Regeneration"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI",
+				"GO"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Wolf",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 341,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Wolf.png?v=1.115.0",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/wolf.mp3?v=1.115.0"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Goblin Wolfrider",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 341,
+			"size": "M",
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 12,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Shared Bonds",
+					"entries": [
+						"The Goblins and The Wolf soul has been bonded together, if one dies, the other dies."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Goblin Wolfrider can do two attack, one bite and one scimitar"
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Wolfrider.png",
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Guard",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 347,
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item chain mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"perception": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 3} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+					]
+				},
+				{
+					"name": "Special : Man the Ballista",
+					"entries": [
+						"Forfeit it's action to control the Ballista,",
+						"{@atk rw} {@hit 3} to hit, range 60ft/120ft, one target. ",
+						"{@h}24 ({@damage 6d8}) piercing damage, If hits, The target must succeed a {@dc 12} DEX or STR Saving Throw, If fails the target are {@condition restrained} by the ballista's Bolt.",
+						"Creature can shake the {@condition restrained} condition by doing a {@dc 14} Dex or Str saving throw on it's turn as an action, to unpin themself."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Randstead/Guardsmen.png",
+			"altArt": [
+				{
+					"name": "Vistana Guard",
+					"source": "CoS"
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"conditionInflict": [
+				"restrained"
+			]
+		},
+		{
+			"name": "Goblin Sharpshooter",
+			"source": "UnchartedCreaturesandMonsters",
+			"size": "M",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 16,
+			"con": 12,
+			"int": 10,
+			"wis": 14,
+			"cha": 9,
+			"skill": {
+				"acrobatics": "+5",
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 14,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Flaming Arrow",
+					"entries": [
+						"One way or another this little creature has added exploding and flammable tips to their arrows"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Flimsy Goblin Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/120 ft., one target. {@h}9 ({@damage 1d6 + 6}) piercing damage, plus 6 ({@damage 1d6 + 3}) fire damage."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Sharpshooter.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/hobgoblin.mp3?v=1.115.0"
+			},
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"RNG",
+				"RW"
+			]
+		},
+		{
+			"name": "Goblin Firestarter",
+			"source": "UnchartedCreaturesandMonsters",
+			"page": 166,
+			"size": "S",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 10,
+			"int": 10,
+			"wis": 8,
+			"cha": 8,
+			"skill": {
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"languages": [
+				"Common",
+				"Goblin"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Packed with Explosive",
+					"entries": [
+						"This goblin is carrying a loads of explosive, if it dies it will explode in 10ft radius dealing ({@damage 1d8}) fire damage and ({@damage 1d8}) thunder damage, it will lit flammable things and break fragile stuff."
+					]
+				},
+				{
+					"name": "Who told you bringing explosive into battlefield is a good idea ?",
+					"entries": [
+						"when attacked by any fire or lightning damage, the firestarter has to do a  ({@damage 1d8}) roll, ending in 1 or 2 make it explode prematurely."
+					]
+				},
+				{
+					"name": "Fuggin Flingin' Firestick",
+					"entries": [
+						"Is that a nat 1 on swinging the firestick? yeap, it swung back to the explosive barrel on it's back, good job goblin.",
+						"nat 1 will cause Packed With Explosive Trait to Be active Prematurely"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Firestick",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) bludgeoning damage, plus 5 ({@damage 1d4 + 3}) fire damage."
+					]
+				},
+				{
+					"name": "Stone",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/60 ft., one target. {@h}6 ({@damage 1d4 + 4}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill",
+				"underdark"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/deadbu9/uncharted-creatures-and-monsters/master/tokens/Goblinoids/Goblin-Firestarter.png",
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/goblin.mp3?v=1.114.1"
+			},
+			"altArt": [
+				{
+					"name": "Goblin",
+					"source": "RMBRE"
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"GO"
+			],
+			"damageTags": [
+				"B",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
 		}
 	]
 }
